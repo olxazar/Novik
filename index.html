@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/skills.css" />
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+    <link rel="stylesheet" href="./styles/contacts.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__section">
+        <div class="header__cont">
+          <nav class="nav">
+            <a class="home__link" href="#">Home</a>
+            <a class="nav__links" href="#about__title">About me</a>
+            <a class="nav__links" href="#skills__title">Skills</a>
+            <a class="nav__links" href="#portfolio__title">Portfolio</a>
+            <a class="nav__links" href="#contacts__title">Contacts</a>
+          </nav>
+          <div class="header__inner">
+            <h1 class="header__title">Denis Novik</h1>
+            <p class="header__sub">
+              UX | UI designer<br />
+              24 years old, Minsk
+            </p>
+          </div>
+          <div class="header__img">
+            <picture>
+              <source
+                class="mobile__img"
+                srcset="./images/BSPP2266.jpg"
+                media="(max-width: 768px)"
+              />
+              <img
+                class="header__photo"
+                src="./images/Novik_inner.jpg"
+                alt="AUTHOR-PHOTO"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="about__section">
+        <div class="about">
+          <h2 id="about__title" class="about__title">About me</h2>
+          <div class="about__sub">
+            <p class="about__text">
+              Hi, I'm Denis – UX/UI designer from Minsk.<br />
+              I'm interested in design and everything connected with it
+            </p>
+            <p class="about__text">
+              I'm studying at courses "Web and mobile design<br />
+              interfaces" in IT-Academy.
+            </p>
+            <p class="about__text">
+              Ready to implement excellent projects<br />
+              with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills__section">
+        <div class="skills">
+          <h2 id="skills__title" class="skills__title">Skills</h2>
+          <p class="skills__sub">I work in such programs as</p>
+          <div class="cards">
+            <div class="card__ps cardmain">
+              <img class="card__img" src="./images/ps.svg" alt="PS" />
+              <p class="card__name">Adobe Photoshop</p>
+              <div class="card__rate">
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/empty-star.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="card__ai cardmain">
+              <img class="card__img" src="./images/ai.svg" alt="" />
+              <p class="card__name">Adobe Illustrator</p>
+              <div class="card__rate">
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/empty-star.svg" alt="" />
+                <img src="./images/empty-star.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="card__ae cardmain">
+              <img class="card__img" src="./images/ae.svg" alt="" />
+              <p class="card__name">
+                Adobe<br />
+                After Effects
+              </p>
+              <div class="card__rate">
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/empty-star.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="card__figma cardmain">
+              <img class="card__img" src="./images/figma.svg" alt="" />
+              <p class="card__name">Figma</p>
+              <div class="card__rate">
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/fill-star.svg" alt="" />
+                <img src="./images/empty-star.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio__section">
+        <div class="portfolio">
+          <div class="new__collection">
+            <h2 id="portfolio__title" class="portfolio__title">Portfolio</h2>
+            <img
+              class="portfolio__img"
+              src="./images/collection-img.jpeg"
+              alt="NEW-COLLECTION"
+            />
+            <p class="collection__sub">Online fashion store - Homepage</p>
+          </div>
+
+          <div class="reebok">
+            <img class="portfolio__img" src="./images/reebok_img.jpeg" alt="REEBOK" />
+            <p class="reebok__sub">Reebok Store - Concept</p>
+          </div>
+
+          <div class="braun">
+            <img src="./images/braun-img.jpeg" alt="BRAUN" class="portfolio__img" />
+            <p class="braun__sub">Braun Landing Page - Concept</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="contacts__section">
+        <div class="contacts">
+          <div class="contacts__text">
+            <h2 id="contacts__title" class="contacts__title">Contacts</h2>
+            <p class="contacts__sub">
+              Want to know more or just chat?<br />
+              You are welcome!
+            </p>
+          </div>
+
+          <div class="button">
+            <button class="send__btn">Send message</button>
+          </div>
+          <div class="icons">
+            <img src="./images/icon-1.svg" alt="" />
+            <img src="./images/icon-2.svg" alt="" />
+            <img src="./images/icon-3.svg" alt="" />
+            <img src="./images/icon-4.svg" alt="" />
+          </div>
+          <span class="contacts__span"
+            >Like me on<br />
+            LinkedIn, Instagram, Behance, Dribble</span
+          >
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

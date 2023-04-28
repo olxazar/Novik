@@ -1,0 +1,47 @@
+.skills__section {
+  margin: 0 auto;
+  background: #f6f6f6;
+  text-align: center;
+  padding: 91px 0 110px;
+  background-color: #fff;
+}
+.skills {
+  margin: 0 auto;
+  max-width: 940px;
+}
+.skills__title {
+  margin-bottom: 69px;
+}
+.skills__sub {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 83px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.cardmain {
+  width: 170px;
+}
+.card__img {
+  margin-bottom: 23px;
+}
+.card__name {
+  margin: 0 auto;
+  max-width: 80px;
+  height: 28px;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 41px;
+}
+.card__rate {
+  display: flex;
+  justify-content: space-between;
+}

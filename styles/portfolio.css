@@ -1,0 +1,37 @@
+.portfolio__section {
+  background: #f6f6f6;
+}
+.portfolio {
+  padding: 113px 0 96px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.portfolio__title {
+  margin-bottom: 47px;
+}
+.collection__sub {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-bottom: 99px;
+}
+.reebok__sub {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+  margin-bottom: 99px;
+}
+.braun__sub {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}

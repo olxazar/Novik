@@ -1,0 +1,47 @@
+footer {
+  margin: 0 auto;
+  background-color: #fff;
+}
+.contacts__section {
+  text-align: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 115px 0 123px;
+}
+.contacts__text {
+  margin: 0 auto;
+  width: 275px;
+  margin-bottom: 30px;
+}
+.contacts__title {
+  margin-bottom: 20px;
+}
+.contacts__sub {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.send__btn {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  border-radius: 30px;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.icons {
+  margin: 0 auto;
+  width: 342px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}

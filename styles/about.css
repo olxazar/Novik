@@ -1,0 +1,21 @@
+.about__section {
+  margin: 0 auto;
+  background: #f6f6f6;
+  text-align: center;
+  padding: 120px 0 107px 0;
+}
+.about__title {
+  margin-bottom: 18px;
+}
+.about__sub {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about__text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
