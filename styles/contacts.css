@@ -4,7 +4,7 @@ footer {
 }
 .contacts__section {
   text-align: center;
-  max-width: 940px;
+
   margin: 0 auto;
   padding: 115px 0 123px;
 }
@@ -45,3 +45,26 @@ footer {
   justify-content: space-between;
   margin-bottom: 45px;
 }
+@media (max-width: 510px) {
+  .contacts {
+    padding: 50px 30px 90px ;
+    text-align: center;
+  }
+  .contacts__title {
+    margin-bottom: 27px;
+  }
+  .contacts__sub {
+    margin-bottom: 40px;
+  }
+  .send__btn {
+    margin-bottom: 48px;
+    width: 316px;
+    height: 42px;
+    align-items: center;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 48px;
+} }

@@ -35,3 +35,20 @@
   text-decoration-line: underline;
   color: #000000;
 }
+@media (max-width: 950px) {
+  .portfolio {
+    padding: 81px 30px;
+  }
+  .portfolio__title {
+    margin-bottom: 47px;
+  }
+  .portfolio__img {
+    margin-bottom: 35px;
+  }
+  .collection__sub {
+    margin-bottom: 77px;
+  } 
+  .reebok__sub {
+    margin-bottom: 77px;
+  }
+}

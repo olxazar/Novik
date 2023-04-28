@@ -79,7 +79,11 @@
 }
 
 @media (max-width: 510px) {
+  .nav__links {
+    display: none;
+  }
   .header__section {
+    padding: 0px 30px 83px;
   }
   .about__me {
     padding: 65px 0 83px;
