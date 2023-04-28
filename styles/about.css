@@ -19,3 +19,17 @@
   line-height: 22px;
   color: #070707;
 }
+@media (max-width: 510px) {
+  .about__section {
+    padding: 81px 30px 76px;
+  }
+  .about__title {
+    margin: 0 auto;
+    margin-bottom: 18px;
+  }
+  .about__sub {
+    margin: 0 auto;
+    max-width: 316px;
+    height: 260px;
+  }
+}
